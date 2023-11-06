@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ch_dragon233の下载站</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f2f2f2;
+        }
+        h1 {
+            font-size: 48px;
+            color: #007bff;
+            margin-bottom: 20px;
+            opacity: 0;
+            transform: translateY(-50px);
+            animation: fade-in 1s ease forwards;
+        }
+        h3 {
+            font-size: 24px;
+            color: #666;
+            margin-bottom: 40px;
+            opacity: 0;
+            transform: translateY(-50px);
+            animation: fade-in 1s ease forwards 0.5s;
+        }
+        button {
+            font-size: 24px;
+            padding: 15px 30px;
+            margin-bottom: 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            opacity: 0;
+            transform: translateY(50px);
+            animation: fade-in 1s ease forwards 1s;
+        }
+        button:hover {
+            background-color: #0069d9;
+        }
+        @keyframes fade-in {
+            from {
+                opacity: 0;
+                transform: translateY(-50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>欢迎来到Ch_dragon233の下载站</h1>
+    <h3>版本:bata2.0</h3>
+    <h3>（点击访问）</h3>
+    <button onclick="window.location.href='download.html'">开始探索</button>
+</body>
+</html>

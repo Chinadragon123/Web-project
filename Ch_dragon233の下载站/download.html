@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ch_dragon233の下载站</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f2f2f2;
+        }
+        h1 {
+            font-size: 48px;
+            color: #333;
+            margin-bottom: 20px;
+            opacity: 0;
+            transform: translateY(-50px);
+            animation: fade-in 1s ease forwards;
+        }
+        h3 {
+            font-size: 24px;
+            color: #666;
+            margin-bottom: 40px;
+            opacity: 0;
+            transform: translateY(-50px);
+            animation: fade-in 1s ease forwards 0.5s;
+        }
+        p {
+            font-size: 18px;
+            color: #666;
+            margin-bottom: 20px;
+            opacity: 0;
+            transform: translateY(50px);
+            animation: fade-in 1s ease forwards 1s;
+        }
+        button {
+            font-size: 24px;
+            padding: 15px 30px;
+            margin-right: 20px;
+            margin-bottom: 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            opacity: 0;
+            transform: translateY(50px);
+            animation: fade-in 1s ease forwards 1s;
+        }
+        button:last-child {
+            margin-right: 0;
+        }
+        button:hover {
+            background-color: #0069d9;
+        }
+        hr {
+            border: none;
+            border-top: 1px solid #ccc;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            width: 80%;
+        }
+        @keyframes fade-in {
+            from {
+                opacity: 0;
+                transform: translateY(-50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>请选择要下载的软件</h1>
+    <h3>欢迎提供软件或反馈问题，反馈微信（微信号）：wxid_vzrb6u96jdms22</h3>
+    <h3>点击按钮下载</h3>
+    <p>如果您想返回到第一个页面，请点击下面的按钮：</p>
+    <button onclick="window.location.href='index.html'">返回</button>
+    <hr>
+    <div style="display: flex; justify-content: center;">
+        <button onclick="window.location.href='https://weixin.qq.com'">微信</button>
+        <button onclick="window.location.href='https://www.dingtalk.com/'">钉钉</button>
+        <button onclick="window.location.href='https://im.qq.com/index.html'">QQ</button>
+        <button onclick="window.location.href='https://desktop.turbowarp.org/'">Turbowarp</button>
+    </div>
+    <div style="display: flex; justify-content: center;">
+        <button onclick="window.location.href='https://e.seewo.com/#'">希沃[易+]（希沃全家桶）</button>
+        <button onclick="window.location.href='https://app.bilibili.com/'">哔哩哔哩客户端</button>
+    </div>
+</body>
+</html>
+
